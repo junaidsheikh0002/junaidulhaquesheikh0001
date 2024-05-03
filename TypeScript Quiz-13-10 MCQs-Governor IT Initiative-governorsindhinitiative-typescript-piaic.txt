@@ -1,0 +1,44 @@
+let myArray = ["Karachi", "Larkana", "Sukkur"];
+console.log(myArray.slice(1));
+// Output: [ 'Larkana', 'Sukkur' ]
+
+console.log(myArray.slice(1,2));
+// Output: [ 'Larkana' ]
+
+myArray.splice(1,2);
+console.log(myArray);
+// Output: [ 'Karachi' ]
+
+myArray = ["Karachi", "Larkana", "Sukkur"];
+myArray.splice(1,0, "Hyderabad");
+console.log(myArray);
+// Output: [ 'Karachi', 'Hyderabad', 'Larkana', 'Sukkur' ]
+
+console.log(myArray.join(" "));
+// Output: Karachi Hyderabad Larkana Sukkur
+
+myArray = ["Karachi", "Larkana", "Sukkur"];
+myArray.join("");
+console.log(myArray);
+// Output: [ 'Karachi', 'Larkana', 'Sukkur' ]
+
+let myArray2 = ["Ali", "Ahmed", "Ayaz"];
+console.log(myArray2.indexOf("Hussain"));
+// Output: -1
+
+let myObj = { name: "Ali", age: 18 };
+console.log(myObj.age); // Output: 18
+
+let num: any = 5;
+num = "5";
+console.log(num); // Output: 5
+
+
+function myFun(num1: number, num2: number, num3?: number): number {
+    if (num3 !== undefined) {
+        return num1 + num2 + num3;
+    }
+    return num1 + num2;
+}
+console.log(myFun(23, 90)); // Output: 113
+

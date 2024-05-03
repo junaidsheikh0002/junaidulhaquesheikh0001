@@ -1,0 +1,38 @@
+C:
+D:
+E:
+
+
+/abcDir
+COPY source destination
+docker exec -it containerID /bin/bash
+
+cd /
+ls
+cd  /code 
+
+Dev Containers to install in vs code 
+
+Installations:
+- Docker Desktop
+- VS CODE
+- Plugin DevContainer
+
+poetry run uvicorn helloworld.main:app --reload
+troubleshooting ke virtual environments 
+
+poetry env use helloworld-MATOK_fk-py3.12 && poetry run uvicorn helloworld.main:app --reload
+
+devcontainer.json
+
+troubleshooting ke videos chalain
+
+Pretty-print
+{class-Monday}
+
+Github Copilot install extension in vs code 
+
+Generative AI//Cloud Native AI//Kuberties//Power Bi//Python For Preparation Examonation 2024//
+
+
+

@@ -1,0 +1,12 @@
+from fastapi import FastAPI
+# Create a FastAPI instance
+todo_server: FastAPI = FastAPI()
+# Define a route handler for the root URL ("/")
+@todo_server.get("/")
+def hello():
+    """
+    A route handler for the root URL ("/").
+    Returns a simple JSON response with a "Hello" message.
+    """
+    # Return a JSON response with a "Hello" message
+    return {"Hello": "World"}

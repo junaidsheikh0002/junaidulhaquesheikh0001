@@ -1,0 +1,30 @@
+Docker containerization of fastAPI application | | Docker tutorial hindi
+npm install python 
+npm install typescript
+python --v
+typescript --v
+docker build -t my_fastapi_app .
+docker run -d -p 8000:8000 --name my_fastapi_container my_fastapi_app
+poetry add uvicorn
+poetry add fastapi
+poetry new fastapi-docker
+cd fastapi-docker
+poetry add fastapi uvicorn 
+poetry run uvicorn fastapi_docker.main:app --reload 
+docker build -t fastapi-docker .
+docker run -d -p 8000:8000 --name my_fastapi_container fastapi-docker
+uvicorn main:app --reload
+pip install "fastapi[all]"
+pip install fastapi
+pip install "uvicorn[standard]"
+docker build -t fastapi .
+docker build -t fastapi-docker .
+docker image ls
+docker run -d --rm -p 8000:8000 --name fastapi-temp fastapi
+docker ps
+docker run -d -p 8001:8000 --name fastapi fc5b457cedf6
+docker stop <container_id_or_name>
+docker rm <container_id_or_name>
+docker rmi dixtdf/image-tools:1.0.2                                                          
+https://www.youtube.com/watch?v=cT80cPwSHMY                                     
+Docker containerization of fastAPI application | | Docker tutorial hindi

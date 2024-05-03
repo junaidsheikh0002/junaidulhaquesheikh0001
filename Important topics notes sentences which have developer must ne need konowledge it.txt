@@ -1,0 +1,48 @@
+What is Array ????????
+What is Object ????????
+What is Object Oriented Programming ???????????
+What is Variables ???????????
+What is Promises ???????????
+What is If / Else ??????????
+What is synchronications ???????????
+What is concentrization ??????????
+What is Debug ????????????
+What is Console ?????????
+What is Github ?????????
+What is Repository ??????
+What is Calling Functions ????????????
+
+Answers Below In The Following Centre :
+Sure, I can explain those terms to you:
+
+Array: An array is a data structure that stores a collection of elements, typically of the same type, in a contiguous block of memory. It allows elements to be accessed by an index.
+
+Object: An object is a collection of related data and/or functionality (often called properties and methods), encapsulated into a single entity. Objects are instances of classes in object-oriented programming.
+
+Object-Oriented Programming (OOP): OOP is a programming paradigm based on the concept of "objects", which can contain data in the form of fields (attributes or properties) and code in the form of procedures (methods). It focuses on organizing code into reusable, modular components.
+
+Variables: Variables are containers for storing data values. They are named memory locations that can hold data of a specific type, which can be modified during the program's execution.
+
+Promises: Promises are a feature in JavaScript that represent the eventual completion or failure of an asynchronous operation and its resulting value. They provide a way to handle asynchronous operations more elegantly and avoid callback hell.
+
+If / Else: If/else statements are control structures in programming used to execute different code blocks based on certain conditions. They allow programs to make decisions and choose between different courses of action based on the evaluation of expressions.
+
+Synchronization: Synchronization refers to coordinating multiple threads or processes in a program to ensure they execute in a certain order or at specific times. It's crucial for preventing race conditions and ensuring data consistency in concurrent programming.
+
+Concretization: Concretization isn't a commonly used term in programming. It might be a typo or a specific concept related to a certain context. Can you provide more details?
+
+Debug: Debugging is the process of identifying and fixing errors, or bugs, in a program. It involves analyzing the program's behavior, identifying the cause of unexpected behavior, and making corrections to resolve issues.
+
+Console: In programming, a console typically refers to a text-based interface used for input and output of a program. It's often used for debugging purposes or for interacting with a program in a command-line environment.
+
+GitHub: GitHub is a web-based platform used for version control and collaboration on software projects. It provides hosting for Git repositories, along with features such as issue tracking, pull requests, and project management tools.
+
+Repository: A repository, often shortened to "repo," is a central location where files and data are stored and managed, typically using version control software like Git. It contains all the files and revision history of a project.
+
+Calling Functions: Calling functions refers to invoking or executing a function in a program. Functions are blocks of code that perform a specific task when called, and calling them allows you to execute that task at a particular point in your code.
+
+
+
+
+
+

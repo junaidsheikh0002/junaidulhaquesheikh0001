@@ -1,0 +1,68 @@
+Windows File System Partitions
+
+
+Block Storage 
+abc/abc/abc/abc/index.html
+
+
+absolute path//relative path
+
+1- Dockerfile #write
+2- Image      #command
+      docker build -t devcount1 .
+3- Container #command
+      docker run -d -p 8001:8000 devcount1 
+docker logs containerID -f
+
+docker exec -it ContainerID  /bin/bash/
+docker ps
+docker exec -it   9450 /bin/bash
+
+docker commit containerID /bin/bash
+
+====================================================================================================
+docker run -d -p 8000:8000 devcount1
+docker logs containerID -f
+docker exec -it ContainerID  /bin/bash 
+docker image
+docker image ls
+docker ps
+docker container ls
+docker ps -a
+docker container ls -a
+docker rm 
+docker remove 9450
+docker stop 9450
+docker kill 9450
+docker ps -a
+docker start 9450
+docker remove -f
+docker rmi imageID
+docker image 
+docker --help
+
+================================================================================================================
+
+
+root@94507c5a6087:/code# ls
+helloworld poetry.lock pyproject.html
+
+
+https://web.facebook.com/mannqal.rana
+https://web.facebook.com/mannqal.rana
+https://web.facebook.com/mannqal.rana
+
+
+Pretty-print 
+{"Class" : "Monday"}
+
+
+https://github.com/panaverse/learn-generative-ai/tree/main/ASSIGNMENTS
+https://github.com/panaverse/learn-generative-ai/tree/main/ASSIGNMENTS
+https://github.com/panaverse/learn-generative-ai/tree/main/ASSIGNMENTS
+
+admissions@mit.edu
+
+
+
+

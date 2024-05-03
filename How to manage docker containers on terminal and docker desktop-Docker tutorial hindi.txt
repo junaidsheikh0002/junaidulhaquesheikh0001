@@ -1,0 +1,20 @@
+How to manage docker containers on terminal and docker desktop | Docker tutorial hindi
+
+docker image ls
+docker run -d  --rm -p 8000:8000 --name fastapi--temp fastapi 
+docker run -d -p 8001:8000 --name fastapi fc5b457cedf6  
+docker build -t my_fastapi_app .
+docker run -d -p 8000:8000 --name my_fastapi_container my_fastapi_app
+docker ps 
+docker stop fastapi
+docker ps -a
+docker stop 4538
+docker ps -a
+docker start fastapi
+docker rm 
+docker rm fastapi
+docker ps -a 
+docker run -d --rm -p 8000:8000 --name fastapi-temp fastapi
+docker image ls 
+docker run -d --rm -p 8000:8000 --name fastapi-temp fastapi 
+docker extension init my-extension

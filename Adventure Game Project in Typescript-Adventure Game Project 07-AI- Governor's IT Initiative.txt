@@ -1,0 +1,49 @@
+import inquirer from 'inquirer'; // Importing the 'inquirer' library
+
+class Player {
+    name: string;
+    fuel: number;
+
+    constructor(name: string, fuel: number) {
+        this.name = name; // Assigning the provided name to the player's name property
+        this.fuel = fuel; // Assigning the provided fuel level to the player's fuel property
+    }
+}
+
+// Function to prompt the user for the player's name and initial fuel level
+async function createPlayer(): Promise<Player> {
+    // Using inquirer to prompt the user for the player's name and initial fuel level
+    const answers = await inquirer.prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: "What's your name?"
+        },
+        {
+            type: 'number',
+            name: 'fuel',
+            message: "Enter your initial fuel level:"
+        }
+    ]);
+
+    // Creating a new Player object with the provided name and initial fuel level
+    const player = new Player(answers.name, answers.fuel);
+
+    return player; // Returning the created player object
+}
+
+// Asynchronous function to run the program
+async function main() {
+    console.log('Welcome to the game!');
+    
+    // Creating the player by prompting for their name and initial fuel level
+    const player = await createPlayer();
+
+    // Displaying the player's information
+    console.log(`Hello, ${player.name}! Your initial fuel level is ${player.fuel}.`);
+
+    // Here you can continue with your game logic...
+}
+
+// Calling the main function to start the program
+main();

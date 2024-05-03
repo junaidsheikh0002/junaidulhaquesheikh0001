@@ -1,0 +1,60 @@
+All Quarter 1 and Quarter 2 Students please note that you can now give the following quizzes on PIAIC portal till the end of this quarter:
+
+
+
+
+Quarter 1 - TypeScript Foundation Quiz
+
+Name: TypeScript Foundation Quiz
+URL: https://portal.piaic.org/
+Total MCQs: 28
+Total Time: 60 minutes
+
+Preparation Resources:
+
+This Presentation:
+https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/edit#slide=id.gcb9a0b074_1_0
+
+First Ten Steps:
+https://github.com/panaverse/learn-typescript
+
+
+
+
+
+
+Quarter 2 - Fundamentals of React and Next.js
+
+Total Multiple Choice Questions: 76
+Duration: 120 minutes 
+
+Covered material:
+Steps 00 to 08, 10, 11, 13-16 : https://github.com/panaverse/learn-nextjs
+https://nextjs.org/docs 
+https://react.dev/learn 
+https://vercel.com/blog/framework-defined-infrastructure 
+
+
+
+
+Please complete your installation, etc. ASAP i.e. before the exam.
+It is important to note the following:
+1. You will attempt your exam at your home using the Safe Exam Browser.
+2. Download & Install Safe Exam Browser from Portal.
+3. After Installing the safe browser, download the Config file from the PIAIC Portal.
+4. Right click on the config file and select “open with” then select SEB.
+5. After running the Config file, log in with PIAIC Portal Credentials
+6. Select your Quiz and enter the security key (which will be available on the portal in the exam section) & start the test.
+7. Make sure you have a stable internet connection before attempting the quiz.
+8. Once you have completed the quiz simply logout and close the browser, your quiz will be submitted.
+9. The Quiz can only be attempted on a Laptop or a Desktop computer running Windows or Mac only.
+10. If you miss the quiz date there will be strictly no re-scheduling
+11. Security key for the quiz will be available on Portal in exam section
+12. It is essential to note that QUIZZES WILL NOT BE RESCHEDULED FOR ANY REASON REGARDLESS OF THE CIRCUMSTANCES.
+
+Safe Exam Browser installation and configuration Guide is available here:
+https://youtu.be/MhYvz-50y0Y
+ 2 Attachments
+  •  Scanned by Gmail
+Preview YouTube video How to attempt PIAIC quizzes online
+

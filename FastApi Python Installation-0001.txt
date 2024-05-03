@@ -1,0 +1,53 @@
+python --version 
+poetry --version 
+pip --version 
+pip install pipx
+pipx --version 
+pipx enurepath 
+pipx install poetry
+poetry --version
+poetry new todo_list
+cd todo_list
+poetry add fastapi 
+poetry new uvicorn
+poetry add uvicorn
+poetry add supabase
+poetry run uvicorn Classes-0004.main:app
+poetry new fastapi-helloworld
+cd fastapi-helloworld 
+poetry add fastapi "uvicorn[standard]"
+poetry run uvicorn fastapi_helloworld.main:app --host 0.0.0.0 --port 8000
+http://0.0.0.0:8000/
+
+http://0.0.0.0:8000/docs
+
+http://0.0.0.0:8000/openapi.json
+
+
+========================================================================================================================================================================================================================
+
+03422345065/03480091070//whatsapp working on cv or picture updating now a days
+
+shayyan for job interviews coming on Park Avenue
+====================================================================================================================================================================================================================================
+
+netsh wlan connect name="ELibrary."
+
+======================================================================================================================================================================
+Wlan Password
+LiaquatMemorialMRH
+LiaquatMemorialMRH2
+LiaquatMemorialMRH3
+ipconfig
+12345678
+===============================================================================================================================================================================
+192.168.100.1
+
+username: telecomadmin
+password: admintelecom
+==========================================================================================================================================================
+
+
+
+
+

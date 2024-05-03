@@ -1,0 +1,29 @@
+Notes On Making Projects With Inquirer
+
+On Tsconfig Files
+Line Number 14/28/30
+Updated Version ES2016 to ES2022
+Line 28 Nodenext
+Line 30 Nodenext
+
+
+On Package Json Files
+added line 
+"type", "module"
+
+
+Chalana Ka Liya Command
+>tsc  ==>to changes or convert to Js Files Extension Programming Languages
+>tsc -init//tsc --init ==>tsconfig ke file banjaege
+>npm init -y//npm init -yes ==>package json ke file banjaeyge
+>npm i @types/node -D//package-lock-json or nodes modules ke files plus folders banjayege 
+>==>
+npm i inquirer
+npm install inquirer
+npm install --save inquirer
+npm install --save inquirer@^8.0.0
+npm i --save-dev @types/inquirer
+
+
+
+

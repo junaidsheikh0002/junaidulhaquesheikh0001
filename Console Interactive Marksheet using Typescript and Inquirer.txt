@@ -1,0 +1,64 @@
+// Importing the PromptObject type from inquirer is not necessary for this code to work,
+// so it has been removed to avoid the error.
+import inquirer from 'inquirer';
+
+// Define an asynchronous function to prompt the user for a number
+async function askForNumber() {
+    try {
+        // Define the prompt object
+        const prompt: PromptObject<number> = {
+            // Specify that the input type is a number
+            type: "number",
+            // Define a name for the input field (optional)
+            name: "num1",
+            // Provide a message to display to the user
+            message: "Please enter your roll number:"
+        };
+
+        // Prompt the user for input and wait for their response
+        const { num1 } = await inquirer.prompt(prompt);
+
+        // Check if the roll number matches a specific value
+        if (num1 === 323245) {
+            // If the roll number matches, print some information
+            console.log("Name: Ratan Lal");
+            console.log("Father Name: Chaman Lal");
+
+            // Prompt the user for marks in different subjects
+            const marks = await inquirer.prompt([
+                {
+                    name: "typescript",
+                    type: "number",
+                    message: "Please enter your TypeScript marks:",
+                },
+                {
+                    name: "python",
+                    type: "number",
+                    message: "Please enter your Python marks:",
+                },
+                {
+                    name: "csharp",
+                    type: "number",
+                    message: "Please enter your C# marks:",
+                }
+            ]);
+
+            // Log the marks to the console
+            console.log("Marks:", marks);
+        } else {
+            // If the roll number does not match, print an error message
+            console.log("Invalid roll number. Roll number should be 323245.");
+        }
+    } catch (error) {
+        // If an error occurs during the prompt process, log the error
+        console.error("Error occurred:", error);
+    }
+}
+
+// Call the function to start prompting the user
+askForNumber();
+
+https://www.youtube.com/watch?v=CI7ss8nu6KM&list=PLplW4d4HPsEJL29589GDjtHPAi-R01tnJ&index=97                                                                               
+Console Interactive Marksheet using Typescript and Inquirer
+Console Interactive Marksheet using Typescript and Inquirer
+Console Interactive Marksheet using Typescript and Inquirer

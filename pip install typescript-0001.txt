@@ -1,0 +1,24 @@
+pip install typescript
+pip install poetry
+pip install fastapi
+pip install python
+pip add fastapi
+pip add poetry
+npm install typescript
+pip install python
+npm install python
+pip install next
+npm install next
+pip install poetry 
+npm install poetry 
+pip install fastapi 
+npm install fastapi 
+pip install uvicorn 
+npm install uvicorn
+npx create-next-app my-next-app
+poetry init
+tsc --init
+npm init -y
+ git init
+npm init
+===================================================================================================================

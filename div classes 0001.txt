@@ -1,0 +1,24 @@
+            <div class="container">
+        <div class="panel active" style="background-image: url('https://media.istockphoto.com/id/1282125191/photo/planet-earth-from-the-space-at-night.jpg?s=1024x1024&w=is&k=20&c=iywqYwdsOrCiJ-LF0yuUS7uXJSQ0wl9LGaoensG6t-o= ')">
+            <h3>Explore the world</h3>
+        </div>
+
+        <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+            <h3>World Forest</h3>
+        </div>
+
+        <div class="panel active" style="background-image: url('https://media.istockphoto.com/id/1514247687/photo/woman-having-lunch-in-a-seaside-restaurant.jpg?s=1024x1024&w=is&k=20&c=Ks5hT3_wRckSWkm7tXVeAU_5kNMUsA5wwWY3G_bGe4g=')">
+            <h3>Sunny Beach</h3>
+        </div>
+       
+
+        <div class="panel active" style="background-image: url('https://plus.unsplash.com/premium_photo-1671628147501-42120d9d4af4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+            <h3>City On Winter</h3>
+
+        <div class="panel active" style="background-image: url('https://plus.unsplash.com/premium_photo-1669926574002-3d50f76582ff?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+            <h3>Mountains- Clouds</h3>
+        </div>
+
+
+    </div>
+

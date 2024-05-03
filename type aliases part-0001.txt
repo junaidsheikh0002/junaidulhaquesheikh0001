@@ -1,0 +1,78 @@
+// Define a type called 'user1' specifying the structure of user objects
+let user1: {
+    name: string; // Property 'name' must be a string
+    age: number; // Property 'age' must be a number
+    role: string; // Property 'role' must be a string
+} = {
+    // Initialize an object of type 'user1'
+    name: "Mansha", // Assign a string value to the 'name' property
+    age: 44, // Assign a number value to the 'age' property
+    role: "father", // Assign a string value to the 'role' property
+};
+
+// Define another user object 'user2' with the same structure as 'user1'
+let user2: {
+    name: string; // Property 'name' must be a string
+    age: number; // Property 'age' must be a number
+    role: string; // Property 'role' must be a string
+} = {
+    // Initialize an object of type 'user2'
+    name: "mairaj", // Assign a string value to the 'name' property
+    age: 45, // Assign a number value to the 'age' property
+    role: "mother", // Assign a string value to the 'role' property
+};
+
+// Define a type called 'User' specifying the structure of user objects with children
+type User = {
+    name: string; // Property 'name' must be a string
+    age: number; // Property 'age' must be a number
+    role: string; // Property 'role' must be a string
+    children: {
+        name: string; // Property 'name' of 'children' must be a string
+        age: number; // Property 'age' of 'children' must be a number
+        role: string; // Property 'role' of 'children' must be a string
+        children: {
+            name: string; // Property 'name' of 'children' must be a string
+        };
+    }
+};
+
+console.log(user1); // Logs the 'user1' object to the console
+
+// Define a variable 'trafficlight' with a type union representing traffic light colors
+let trafficlight: "red" | "green" | "yellow" = "green"; // Assigns a string value that must be either "red", "green", or "yellow"
+
+// Define a variable 'drinks' with a type union representing types of drinks
+let drinks: "tea" | "colddrink" = "tea"; // Assigns a string value that must be either "tea" or "colddrink"
+
+console.log(trafficlight) // red
+
+// Define types for Student and Teacher
+type Student = {
+    name: string;
+    rollnumber: number;
+}
+type Teacher = {
+    name: string;
+    salary: number;
+}
+
+// Define variables of types Student and Teacher
+let student1: Student = {
+    name: "hassan",
+    rollnumber: 1234,
+}
+
+let teacher1: Teacher = {
+    name: "Haseeb",
+    salary: 100000000000000
+}
+
+// Define an intersection type for both Student and Teacher
+let both: Student & Teacher = {
+    name: "Ayesha",
+    rollnumber: 1234,
+    salary: 100000000000000,
+}
+
+console.log(both1.name)
