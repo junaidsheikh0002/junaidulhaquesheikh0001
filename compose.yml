@@ -1,0 +1,16 @@
+services:
+  myapp:
+    build: ./
+    container_name: fastapi-con1
+    ports:
+      - "8000:8000"
+
+  postgres_db:
+    image: postgres:latest 
+    restart: always
+    container_name: postgres_db-con1
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+
+    ports: 
+      - "5432:5432"
