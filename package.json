@@ -1,15 +1,22 @@
 {
-  "name": "45-questions",
+  "name": "class-11-sir-okasha-moday-2to5-0001",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  },
   "dependencies": {
-    "@types/inquirer": "^9.0.7",
-    "inquirer": "^9.2.19"
+    "docker": "^1.0.0",
+    "fastapi": "^0.0.8",
+    "poetry": "^0.6.28",
+    "python": "^0.0.4"
   }
 }
