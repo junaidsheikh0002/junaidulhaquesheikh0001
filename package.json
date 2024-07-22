@@ -1,15 +1,23 @@
 {
-  "name": "45-questions",
+  "name": "landing_page_ali_haider_assignments_0001",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# Landing_Page_Ali_Haider_Assignments_0001\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "docker": "^1.0.0",
+    "fastapi": "^0.0.8",
+    "inquirer": "^8.0.0",
+    "poetry": "^0.6.29",
+    "python": "^0.0.4"
+  },
+  "devDependencies": {
     "@types/inquirer": "^9.0.7",
-    "inquirer": "^9.2.19"
+    "@types/node": "^20.14.11"
   }
 }
